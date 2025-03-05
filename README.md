@@ -2,17 +2,17 @@
 Portugol Studio
 
     programa {
-      funcao inicio() {
+         funcao inicio() {
     
-      real desconto, valor , valorFinal
+          real desconto, valor , valorFinal
 
-      escreva("Digite o valor da compra ")
-      leia(valor)
+          escreva("Digite o valor da compra: ")
+          leia(valor)
 
-      escreva("Digite o desconto feito ")
-      leia(desconto)
+          escreva("Digite o desconto feito: ")
+          leia(desconto)
 
-      valorFinal = valor - valor*(desconto/100)
-      escreva(valorFinal)
-  }
-}
+          valorFinal = valor - valor * (desconto / 100)
+          escreva(valorFinal)
+      }
+    }
